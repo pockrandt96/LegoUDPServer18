@@ -94,7 +94,7 @@ public class DatagramServer {
 			try {
 				socket.receive(packet);
 
-				// Empf‰nger auslesen
+				// Empf√§nger auslesen
 
 				// InetAddress address = packet.getAddress();
 				// int port = packet.getPort();
@@ -175,7 +175,7 @@ public class DatagramServer {
 
 			//decide for one side
 		Button.LEDPattern(2);
-		if (usRSample[0] <= usRSample[0]) {
+		if (usRSample[0] <= usLSample[0]) {
 			turnLeft(1000, false);
 			return true;
 		} else {
